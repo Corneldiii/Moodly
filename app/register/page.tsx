@@ -59,7 +59,7 @@ export default function RegisterPage() {
               value={name}
               onChange={e => setName(e.target.value)}
               placeholder="Nama panggilanmu"
-              className="w-full border border-gray-200 rounded-xl px-4 py-3 text-sm outline-none focus:border-violet-400 focus:ring-2 focus:ring-violet-50 transition-all"
+              className="w-full border text-black border-gray-200 rounded-xl px-4 py-3 text-sm outline-none focus:border-violet-400 focus:ring-2 focus:ring-violet-50 transition-all"
             />
           </div>
           <div>
@@ -69,7 +69,7 @@ export default function RegisterPage() {
               value={email}
               onChange={e => setEmail(e.target.value)}
               placeholder="kamu@email.com"
-              className="w-full border border-gray-200 rounded-xl px-4 py-3 text-sm outline-none focus:border-violet-400 focus:ring-2 focus:ring-violet-50 transition-all"
+              className="w-full border text-black border-gray-200 rounded-xl px-4 py-3 text-sm outline-none focus:border-violet-400 focus:ring-2 focus:ring-violet-50 transition-all"
             />
           </div>
           <div>
@@ -80,7 +80,7 @@ export default function RegisterPage() {
               onChange={e => setPassword(e.target.value)}
               onKeyDown={e => e.key === 'Enter' && handleRegister()}
               placeholder="Min. 6 karakter"
-              className="w-full border border-gray-200 rounded-xl px-4 py-3 text-sm outline-none focus:border-violet-400 focus:ring-2 focus:ring-violet-50 transition-all"
+              className="w-full border text-black border-gray-200 rounded-xl px-4 py-3 text-sm outline-none focus:border-violet-400 focus:ring-2 focus:ring-violet-50 transition-all"
             />
           </div>
         </div>
