@@ -64,7 +64,7 @@ export default function PlaylistPage() {
                             <span className="text-white font-black text-lg">M</span>
                         </div>
                         <span className="font-bold bg-clip-text text-transparent bg-linear-to-r from-violet-700 to-pink-600 tracking-tight text-lg">
-                            moodrouter
+                            MoodLy
                         </span>
                     </div>
                     <Link href="/dashboard" className="text-sm font-bold text-violet-700 bg-white/50 hover:bg-white/80 transition-all px-5 py-2.5 rounded-full shadow-sm">

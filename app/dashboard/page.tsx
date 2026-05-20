@@ -51,7 +51,7 @@ export default async function DashboardPage() {
               <span className="text-white font-black text-lg">M</span>
             </div>
             <span className="font-bold bg-clip-text text-transparent bg-linear-to-r from-violet-700 to-pink-600 tracking-tight text-lg">
-              moodrouter
+              MoodLy
             </span>
           </div>
           <form action="/api/auth/logout" method="POST">
@@ -91,7 +91,6 @@ export default async function DashboardPage() {
               <div className="absolute inset-0 bg-white/0 group-hover:bg-white/10 transition-colors"></div>
             </Link>
 
-            {/* ⚡ Check-in Cepat CTA */}
             <Link href="/checkin" className="group relative block w-full overflow-hidden rounded-4xl bg-linear-to-br from-amber-400 via-orange-400 to-rose-400 hover:scale-[1.02] transition-all duration-300 shadow-2xl shadow-orange-400/40">
               <div className="px-8 py-6 flex items-center justify-between text-white relative z-10">
                 <div>
@@ -145,7 +144,7 @@ export default async function DashboardPage() {
                 <div className="flex items-center justify-between mb-6">
                   <h2 className="text-xl font-black text-slate-800">Tren Mood Kamu 📈</h2>
                 </div>
-                <div className="w-full h-64 md:h-72">
+                <div className="w-full h-12 md:h-22">
                   <MoodGraph sessions={sessions} />
                 </div>
               </div>

@@ -50,7 +50,7 @@ export default function RegisterPage() {
             <span className="text-white font-black text-2xl">M</span>
           </div>
           <span className="font-bold bg-clip-text text-transparent bg-linear-to-r from-violet-700 to-pink-600 tracking-tight text-2xl">
-            moodrouter
+            MoodLy
           </span>
         </div>
 

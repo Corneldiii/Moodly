@@ -60,7 +60,6 @@ Mix lagu Indonesia dan internasional. Pilih lagu yang benar-benar ada, rilis res
             return NextResponse.json({ error: 'Gagal berkomunikasi dengan AI' }, { status: 500 })
         }
 
-        // Penyelamat jika Gemini nakal ngasih bungkus markdown backticks meskipun diset json murni
         const cleanedJson = rawText.replace(/```json|```/g, '').trim()
 
         try {
